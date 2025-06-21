@@ -24,11 +24,17 @@ html{
   max-width: 1000px;
   position: relative;
   margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Next & previous buttons */
