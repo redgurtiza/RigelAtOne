@@ -1,7 +1,7 @@
 html{
  background-image: url("./images/thunder-bg.jpg");
  background-repeat: repeat-y;
- background-size: contain;
+ background-size: 100%;
  text-align: center;
 }
 
